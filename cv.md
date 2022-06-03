@@ -11,7 +11,7 @@
 
 
 ## About myself
-I am a graduate of the Moscow Psychological and Social University. My specialty is law. For twelve years I worked as a court representative. 
+I am a graduate of the Moscow Psychological and Social University. My specialty is law. For twelve years I worked as a court representative.<br> 
 And now I want to change my life and I will change it.
 
 ## Skills
