@@ -1,5 +1,7 @@
 # Pavel Zubarev
 
+<img src="../rsschool-cv" width="200"/> 
+
 ## **My contact info**
 address:            *Kaliningrad, Russia*<br>
 e-mail:             *zubarev.p@yahoo.com*<br>
@@ -9,7 +11,8 @@ discord(rs school): *Pavel Zubarev(@ZubarevP)*<br>
 
 
 ## About myself
-I am a graduate of the Moscow Psychological and Social University. My specialty is law. For twelve years I worked as a court representative. I want change my life and I will change it.
+I am a graduate of the Moscow Psychological and Social University. My specialty is law. For twelve years I worked as a court representative. 
+And now I want to change my life and I will change it.
 
 ## Skills
 - C++<br> 
