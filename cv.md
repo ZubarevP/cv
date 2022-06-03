@@ -16,3 +16,35 @@ Coursera: C++ development basics (red belt)
 CMake
 Git
 OS: Windows, Linux
+
+Code example
+```#include <iostream>
+#include <string>
+#include <set>
+#include <algorithm>
+#include <cctype>
+
+static const std::set<std::string> RESP {"yes", "y", "ok"};
+
+bool IsPositive(std::string& resp) {
+    std::transform(resp.begin(), resp.end(), resp.begin(),
+        [](unsigned char c){return std::tolower(c);});    
+    return RESP.count(resp)? true : false; 
+}
+
+int main() {
+    std::cout << "Has Pavel Zubarev been hired?" << std::endl;
+    while(true) {
+        std::string resp;
+        std::cin >> resp;
+        if(IsPositive(resp)) {
+            std::cout << "Congratulations! It's a great choice." << std::endl;
+            break;
+        } else {
+            std::cout << "Wrong answer. Try again!" << std::endl;
+        }
+    }
+    return 0;
+}```
+
+
