@@ -15,7 +15,7 @@ I am a graduate of the Moscow Psychological and Social University. My specialty 
 - C++<br> 
 - CMake<br>
 - Git<br>
-- OS: Windows, Linux<br>
+- OS: Windows, Linux(Ubuntu)<br>
 
 ## Code example
 ```
@@ -52,9 +52,9 @@ int main() {
 no experience
 
 ## Education
-Coursera: C++ development basics (white belt) 
-Coursera: C++ development basics (yellow belt) 
-Coursera: C++ development basics (red belt) 
+- [Coursera: C++ development basics (white belt)](https://coursera.org/share/e452dd6d315306750c9ee0580b360fd9) 
+- [Coursera: C++ development basics (yellow belt)](https://coursera.org/share/10786d003a1f34e33d4b270e2e9315b2)
+- [Coursera: C++ development basics (red belt)](https://coursera.org/share/22c66ddff09d9e4c77f0498449a9dfa2) 
 
 ## Language
-english level- A2
+english level - A2
