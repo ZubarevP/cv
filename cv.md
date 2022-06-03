@@ -1,11 +1,4 @@
-<table>
-    <tr>
-        # Pavel Zubarev
-    </tr>
-    <tr>
-        ![Main](img/self.jpg)
-    </tr>
-</table>
+# Pavel Zubarev
 
 ## **My contact info**
 address:            *Kaliningrad, Russia*<br>
