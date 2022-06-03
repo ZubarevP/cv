@@ -3,8 +3,8 @@
 ![my_photo](img/self.jpg)
 
 ## **My contact info**
-> address: Kaliningrad, Russia<br>
-> e-mail: zubarev.p@yahoo.com<br>
+> **address**: Kaliningrad, Russia<br>
+> e-mailI**:** zubarev.p@yahoo.com<br>
 > GitHub: ZubarevP<br>
 > telegram: zubarevp<br>
 > discord(rs school): Pavel Zubarev(@ZubarevP)<br>
