@@ -1,20 +1,22 @@
-Pavel Zubarev
+# Pavel Zubarev
 
-My contact info
-address:    Kaliningrad, Russia
-e-mail:     zubarev.p@yahoo.com
-GitHub:     ZubarevP
+## My contact info
+address:            Kaliningrad, Russia
+e-mail:             zubarev.p@yahoo.com
+GitHub:             ZubarevP
+telegram:           zubarevp
+discord(rs school): Pavel Zubarev(@ZubarevP)
 
-About myself
+## About myself
 I am a graduate of the Moscow Psychological and Social University. My specialty is law. For twelve years I worked as a court representative. I want change my life and I will change it.
 
-Skills
+## Skills
 C++ 
 CMake
 Git
 OS: Windows, Linux
 
-Code example
+## Code example
 ```#include <iostream>
 #include <string>
 #include <set>
@@ -44,13 +46,13 @@ int main() {
     return 0;
 }
 ```
-Experience
+## Experience
 no experience
 
-Education
+## Education
 Coursera: C++ development basics (white belt) 
 Coursera: C++ development basics (yellow belt) 
 Coursera: C++ development basics (red belt) 
 
-Language
-english - A2 level
+## Language
+english level- A2
