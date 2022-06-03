@@ -1,12 +1,11 @@
 # Pavel Zubarev
 
 ## **My contact info**
-| ----- | ----- |
-| address: | Kaliningrad, Russia | 
-| e-mail: | zubarev.p@yahoo.com |
-| GitHub: | ZubarevP |
-| telegram: | zubarevp |
-| discord(rs school): | Pavel Zubarev(@ZubarevP) |
+address: .......................... Kaliningrad, Russia<br>
+e-mail: ........................... zubarev.p@yahoo.com<br>
+GitHub: ........................... ZubarevP<br>
+telegram: ......................... zubarevp<br>
+discord(rs school): ............... Pavel Zubarev(@ZubarevP)<br>
 
 
 ## About myself
@@ -20,6 +19,7 @@ And now I want to change my life and I will change it.
 - OS: Windows, Linux(Ubuntu)<br>
 
 ## Code example
+C++ code:
 ```c++
 #include <iostream>
 #include <string>
@@ -51,7 +51,7 @@ int main() {
 }
 ```
 ## Experience
-no experience
+[Final task of the c++ course.](https://github.com/ZubarevP/EducationCPP/tree/main/RedBelt/6WEEK)
 
 ## Education
 - [Coursera: C++ development basics (white belt)](https://coursera.org/share/e452dd6d315306750c9ee0580b360fd9) 
