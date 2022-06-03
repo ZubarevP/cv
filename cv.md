@@ -1,7 +1,7 @@
 # Pavel Zubarev
 
 ## **My contact info**
-
+| ------------------- | ------------------------ |
 | address:            | Kaliningrad, Russia | <br>
 | e-mail:             | zubarev.p@yahoo.com | <br>
 | GitHub:             | ZubarevP | <br>
