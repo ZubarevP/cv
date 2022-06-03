@@ -1,13 +1,11 @@
 # Pavel Zubarev
 
-<img src="../rsschool-cv" width="200"/> 
-
 ## **My contact info**
-address:            *Kaliningrad, Russia*<br>
-e-mail:             *zubarev.p@yahoo.com*<br>
-GitHub:             *ZubarevP*<br>
-telegram:           *zubarevp*<br>
-discord(rs school): *Pavel Zubarev(@ZubarevP)*<br>
+address:            | Kaliningrad, Russia<br>
+e-mail:             | zubarev.p@yahoo.com<br>
+GitHub:             | ZubarevP<br>
+telegram:           | zubarevp<br>
+discord(rs school): | Pavel Zubarev(@ZubarevP)<br>
 
 
 ## About myself
@@ -21,7 +19,7 @@ And now I want to change my life and I will change it.
 - OS: Windows, Linux(Ubuntu)<br>
 
 ## Code example
-```
+```c++
 #include <iostream>
 #include <string>
 #include <set>
