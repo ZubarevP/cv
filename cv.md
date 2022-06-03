@@ -1,5 +1,7 @@
 # Pavel Zubarev
 
+![my_photo](img/self.jpg)
+
 ## **My contact info**
 > address: Kaliningrad, Russia<br>
 > e-mail: zubarev.p@yahoo.com<br>
