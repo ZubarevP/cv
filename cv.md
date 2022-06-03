@@ -1,15 +1,11 @@
 # Pavel Zubarev
 
-## My contact info
-address:            Kaliningrad, Russia
-
-e-mail:             zubarev.p@yahoo.com
-
-GitHub:             ZubarevP
-
-telegram:           zubarevp
-
-discord(rs school): Pavel Zubarev(@ZubarevP)
+## **My contact info**
+> address:            *Kaliningrad, Russia*
+> e-mail:             *zubarev.p@yahoo.com*
+> GitHub:             *ZubarevP*
+> telegram:           *zubarevp*
+> discord(rs school): *Pavel Zubarev(@ZubarevP)*
 
 
 ## About myself
