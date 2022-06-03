@@ -1,4 +1,5 @@
 # Pavel Zubarev
+![Main](img/self.jpg)
 
 ## **My contact info**
 address:            *Kaliningrad, Russia*<br>
@@ -12,10 +13,10 @@ discord(rs school): *Pavel Zubarev(@ZubarevP)*<br>
 I am a graduate of the Moscow Psychological and Social University. My specialty is law. For twelve years I worked as a court representative. I want change my life and I will change it.
 
 ## Skills
-C++ 
-CMake
-Git
-OS: Windows, Linux
+- C++<br> 
+- CMake<br>
+- Git<br>
+- OS: Windows, Linux<br>
 
 ## Code example
 ```
