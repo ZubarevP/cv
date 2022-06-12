@@ -1,0 +1,100 @@
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Satisfy', cursive;
+font-family: 'Tiro Gurmukhi', serif;
+font-family: 'Volkhov', serif;
+400
+400
+700
+700
+
+*/
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url("assets/fonts/Volkhov/Volkhov-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url("assets/fonts/Volkhov/Volkhov-Italic.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url("assets/fonts/Volkhov/Volkhov-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url("assets/fonts/Volkhov/Volkhov-BoldItalic.ttf");
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;   
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.container { 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-header {
+  border: 1px solid red;
+}
+
+.main-nav {
+  border: 1px solid blue;
+}
+
+.nav-list {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+  padding: 0 30 px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.main-main {
+  border: 1px solid yellow;
+}
+
+.main-footer {
+  border: 1px solid green;
+}
+
