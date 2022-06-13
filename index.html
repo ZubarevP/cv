@@ -7,7 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>CV</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <!-- ========================================================== -->
@@ -19,138 +20,169 @@
   <!-- ========================================================== -->
   <!-- ========================== NAVI ========================== -->
   <!-- ========================================================== -->
-
-  <nav></nav>
-  <!-- ========================================================== -->
-  <!-- ========================= HEADER ========================= -->
-  <!-- ========================================================== -->
-
-  <header>
-
-    <div>
-      <h1>Pavel Zuberev</h1>
-      <p>Front-End Developer</p>
-    </div>
-    <div><img src="./assets/img/self.jpg" alt=""></div>
-
-    <div>
-      <h2>Contact</h2>
-      <ul>
-        <li>Address: Kaliningrad, Russia</li>
-        <li>Email: zubarev.p@yahoo.com</li>
-        <li>GitHub: ZuberevP</li>
-        <li>Telegram: zubarevp</li>
-        <li>Discord: Pavel Zuberev(@ZuberevP)</li>
-        <li>Phone: +7 900 561-5688</li>
-      </ul>
-    </div>
-
-  </header>
-  <!-- ========================================================== -->
-  <!-- ========================== MAIN ========================== -->
-  <!-- ========================================================== -->
-
-  <main>
-
-    <section>
-      <div>
-        <h2>About me</h2>
+  <div class="shadow">
+    <nav class="main-nav">
+      <div class="container">
+        <section class="section">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#about_me">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#code_example">Code example</a></li>
+            <li class="nav-item"><a class="nav-link" href="#my_projects">My projetcs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </section>
       </div>
-      <div>
-        Hello! I have been a lawyer for twelve years.
-        I decided to change my profession because
-        I believe that dreams should come true.
-        Every day I get closer to my dream - to become a web developer.
-      </div>
-    </section>
+    </nav>
+    <!-- ========================================================== -->
+    <!-- ========================= HEADER ========================= -->
+    <!-- ========================================================== -->
 
-    <section>
-      <div>
-        <h2>Skills</h2>
-      </div>
-      <div>
-        <ul>
-          <li>C++ std 17, CMake, g++</li>
-          <li>HTML5, CSS3, JavaScript</li>
-          <li>Git, GitHub</li>
-          <li>Windows</li>
-          <li>Linux, bash</li>
-          <li>VS, VS code, Vim, Eclips, QT creator</li>
-        </ul>
-      </div>
-    </section>
+    <header class="main-header">
+      <div class="container">
+        <section class="section" id="sec-head">
 
-    <section>
-      <div>
-        <h2>Code example</h2>
+          <div id="name">
+            <h1 class="section-title">Pavel Zuberev</h1>
+            <p>Front-End Developer</p>
+          </div>
+          <div class="div-left">
+            <img class="avatar" src="./assets/img/self.jpg" alt="Zubarev Pavel photo">
+          </div>
+          <div class="div-right">
+            <h2 class="section-title" id="contact">Contact</h2>
+            <ul>
+              <li>Address: Kaliningrad, Russia</li>
+              <li>Email: zubarev.p@yahoo.com</li>
+              <li>GitHub: ZuberevP</li>
+              <li>Telegram: zubarevp</li>
+              <li>Discord: Pavel Zuberev(@ZuberevP)</li>
+              <li>Phone: +7 900 561-5688</li>
+            </ul>
+          </div>
+
+        </section>
       </div>
-      <div>
-        <code>
+    </header>
+    <!-- ========================================================== -->
+    <!-- ========================== MAIN ========================== -->
+    <!-- ========================================================== -->
+
+    <main class="main-main">
+      <div class="container">
+
+        <section class="section" id="sec-summary">
+          <div class="div-left">
+            <h2 class="section-title" id=" about_me">About me</h2>
+          </div>
+          <div class="div-right">
+            <p>
+              Hello! I have been a lawyer for twelve years.
+              I decided to change my profession because
+              I believe that dreams should come true.
+              Every day I get closer to my dream - to become a web developer.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" id="sec-skills">
+          <div class="div-left">
+            <h2 class="section-title" id="skills">Skills</h2>
+          </div>
+          <div class="div-right">
+            <ul>
+              <li>C++ std 17, CMake, g++</li>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Git, GitHub</li>
+              <li>Windows</li>
+              <li>Linux, bash</li>
+              <li>VS, VS code, Vim, Eclips, QT creator</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section" id="sec-code">
+          <div class="div-left">
+            <h2 class="section-title" id="code_example">Code example</h2>
+          </div>
+          <div class="div-right">
+            <code>
           &num;iostream &lt;iostream&gt;<br>
           <br>
           int main&lpar;&rpar; &lbrace;<br>
           std::cout &lt;&lt; &quot;Hello, world!&quot; &lt;&lt; std::endl;<br>
           &rbrace;
         </code>
-      </div>
-    </section>
+          </div>
+        </section>
 
-    <section>
-      <div>
-        <h2>My projetcs</h2>
-      </div>
-      <div>
-        <a href="https://github.com/ZubarevP/EducationCPP/tree/main/RedBelt/6WEEK">From C++ cource</a>
-      </div>
-    </section>
+        <section class="section" id="sec-projects">
+          <div class="div-left">
+            <h2 class="section-title" id="my_projects">My projetcs</h2>
+          </div>
+          <div class="div-right">
+            <a href="https://github.com/ZubarevP/EducationCPP/tree/main/RedBelt/6WEEK">From C++ cource</a>
+          </div>
+        </section>
 
-    <section>
-      <div>
-        <h2>Education</h2>
-      </div>
-      <div>
-        <ul>
-          <li>2009 MPSI - Lawyer</li>
-          <li>2021 Yandex&amp;MFTI - C++ course(white belt)</li>
-          <li>2021 Yandex&amp;MFTI - C++ course(yellow belt)</li>
-          <li>2021 Yandex&amp;MFTI - C++ course(red belt)</li>
-          <li>2022 Yandex&amp;MFTI - C++ course(brown belt)</li>
-          <li>2022 RS School - FrontEnd/JS</li>
-        </ul>
-      </div>
-    </section>
+        <section class="section" id="sec-education">
+          <div class="div-left">
+            <h2 class="section-title" id="education">Education</h2>
+          </div>
+          <div class="div-right">
+            <ul>
+              <li>2009 MPSI - Lawyer</li>
+              <li>2021 Yandex &amp; MFTI - C++ course(white belt)</li>
+              <li>2021 Yandex &amp; MFTI - C++ course(yellow belt)</li>
+              <li>2021 Yandex &amp; MFTI - C++ course(red belt)</li>
+              <li>2022 Yandex &amp; MFTI - C++ course(brown belt)</li>
+              <li>2022 RS School - FrontEnd/JS</li>
+            </ul>
+          </div>
+        </section>
 
-    <section>
-      <div>
-        <h2>Language</h2>
-      </div>
-      <div>
-        <ul>
-          <li>Russain - nativ</li>
-          <li>English - A2</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <!-- ========================================================== -->
-  <!-- ========================= FOOTER ========================= -->
-  <!-- ========================================================== -->
+        <section class="section" id="sec-language">
+          <div class="div-left">
+            <h2 class="section-title" id="language">Language</h2>
+          </div>
+          <div class="div-right">
+            <ul>
+              <li>Russain - nativ</li>
+              <li>English - pre-intermediate</li>
+            </ul>
+          </div>
+        </section>
 
-  <footer>
-    <div>
-      <span>2022 by Pavel Zubarev</span>
-    </div>
-    <div>
-      <a href="https://github.com/ZubarevP/">
-        <img src="./assets/img/github_logo_black.png" alt="GitHub logo">
-      </a>
-    </div>
-    <div>
-      <a href="https://rs.school/js/">
-        <img src="./assets/img/rs_school_js.png" alt="RS School logo">
-      </a>
-    </div>
-  </footer>
+      </div>
+    </main>
+    <!-- ========================================================== -->
+    <!-- ========================= FOOTER ========================= -->
+    <!-- ========================================================== -->
+
+    <footer class="main-footer">
+      <div class="container">
+
+        <section class="section" id="sec-footer">
+          <div class="footer-left">
+            <p>2022 by Pavel Zubarev</p>
+          </div>
+          <div class="footer-center">
+            <a href="https://github.com/ZubarevP/">
+              <img class="footer-logo" src="./assets/img/github_logo_black.png" alt="GitHub logo">
+            </a>
+          </div>
+          <div class="footer-right">
+            <a href="https://rs.school/js/">
+              <img class="footer-logo" src="./assets/img/rs_school_js.png" alt="RS School logo">
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

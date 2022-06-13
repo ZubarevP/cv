@@ -22,3 +22,140 @@
   font-weight: 700;
 }
 
+/*
+позиционирование
+блочная модель (размеры, отступы)
+типографика (свойства шрифта)
+оформление (цвет фона, тень)
+анимация 
+*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;                   /*переопределение главной оси display*/
+  justify-content: space-between;           /*выравнивает по главной оси*/
+
+  min-height: 100vh;                        /*страница по всей высоте*/
+  margin: 0;
+  padding: 0;
+
+  font-family: Volkhov-Regular, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  background-color: #dcdcdc;
+}
+
+/*.main-main h2 {
+  transform: rotate(-90deg);
+}*/
+
+.shadow {
+  max-width: 1000px;
+  /*padding: 30px;*/
+  margin: 0 auto;
+
+  background-color: white;
+  box-shadow: 0 0 20px;
+}
+
+.main-nav {
+}
+
+.nav-list {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: #808000;
+}
+
+.nav-item {
+  
+}
+
+.nav-link {
+  padding: 0 19px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+
+.main-header {
+}
+
+.avatar {
+}
+
+.main-main {
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30px ;
+}
+
+.div-left {
+  width: 30%;
+}
+
+#name {
+  width: 100%;
+}
+
+.div-right {
+  width: 70%;
+}
+
+.main-footer {
+  background-color: #808000;
+}
+
+.footer-logo {
+  height: 70%;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-center {
+  width: 25%;
+}
+
+.footer-right{
+  width: 25%;
+}
+
+.main-footer .container {
+  padding: 25px 0 0 0;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .div-left {
+    width: 100%;
+  }
+
+  .div-right {
+    width: 100%;
+  }
+}
