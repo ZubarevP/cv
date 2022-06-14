@@ -98,6 +98,20 @@ section {
   width: 70%;
 }
 
+.skills-list {
+ list-style: none; 
+ font-size: 16px;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .main-footer {
   background-color: #808000;
 }
