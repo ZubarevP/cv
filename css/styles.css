@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'Volkhov-Regular';
+  font-weight: 400;
+  src: url('../assets/fonts/Volkhov/Volkhov-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Volkhov-Italic';
+  font-weight: 400;
+  src: url("../assets/fonts/Volkhov/Volkhov-Italic.ttf");
+}
+
+@font-face {
+  font-family: 'Volkhov-Bold';
+  font-weight: 700;
+  src: url("../assets/fonts/Volkhov/Volkhov-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Volkhov-BoldItalic';
+  font-weight: 700;
+  src: url("../assets/fonts/Volkhov/Volkhov-BoldItalic.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family: Volkhov-Regular, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  background-color: #dcdcdc;
+}
+
+h2 {
+  margin: 0;
+}
+
+.shadow {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  background-color: white;
+  box-shadow: 0 0 20px;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+
+.main-nav {
+  background-color: #808000;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 70px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-main {
+  background-color: #ffffff;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 30px;
+}
+
+.div-left {
+  width: 30%;
+  margin: 0;
+}
+
+#name {
+  width: 100%;
+}
+
+.div-right {
+  width: 70%;
+}
+
+.marg {
+  margin: 20px 0 0 0;
+}
+
+.code {
+  padding: 10px;
+
+  font-family: 'Times', serif;
+  background-color: #cccccc;
+}
+
+.skills-list {
+ list-style: none; 
+ font-size: 16px;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.h4-project {
+  padding: 0;
+  margin: 0;
+  background-color: #85adad;
+}
+
+.project-img {
+  width: 100%;
+  box-shadow: 0 0 10px ;
+  margin: 10px 0 10px 0;
+}
+
+.link-project {
+  text-decoration: none;
+  color: black;
+}
+
+.main-footer {
+  background-color: #808000;
+}
+
+.section-footer {
+  margin: 0 30px;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+.footer-left {
+  width: 65%;
+}
+
+.footer-center {
+  width: 15%;
+}
+
+.footer-right{
+  width: 20%;
+}
+
+.main-footer .container {
+  padding: 25px 0 0 0;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#h1 {
+  font-size: 40px;
+  margin: 40px 0 0 0;
+}
+
+#header-p {
+  font-family: Volkhov-BoldItalic;
+  font-size: 30px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .div-left {
+    width: 100%;
+  }
+
+  .div-right {
+    width: 100%;
+  }
+
+  .footer-left {
+    width: 1000%;
+  }
+
+  .footer-center {
+    width: 40%;
+  }
+
+  .footer-right {
+    width: 60%;
+  }
+
+  .footer-logo {
+    height: 50px;
+  }
+
+}
