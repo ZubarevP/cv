@@ -68,6 +68,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+
   height: 70px;
 
   list-style: none;
@@ -78,9 +79,6 @@ h2 {
 .nav-link {
   text-decoration: none;
   color: black;
-}
-
-.word {
 }
 
 section {
@@ -107,9 +105,10 @@ section {
 }
 
 .code {
+  padding: 10px;
+
   font-family: 'Times', serif;
   background-color: #cccccc;
-  padding: 10px;
 }
 
 .skills-list {
@@ -126,11 +125,22 @@ section {
   font-weight: bold;
 }
 
+.h4-project {
+  padding: 0;
+  margin: 0;
+  background-color: #85adad;
+}
+
 .project-img {
   width: 100%;
   box-shadow: 0 0 10px ;
+  margin: 10px 0 10px 0;
 }
 
+.link-project {
+  text-decoration: none;
+  color: black;
+}
 
 .main-footer {
   background-color: #808000;
@@ -203,4 +213,3 @@ section {
   }
 
 }
-
