@@ -47,6 +47,10 @@ body {
   background-color: #dcdcdc;
 }
 
+h2 {
+  margin: 0;
+}
+
 .shadow {
   max-width: 1000px;
   margin: 0 auto;
@@ -61,33 +65,33 @@ body {
 
 .nav-list {
   display: flex;
-  height: 70px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  height: 70px;
 
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.nav-item {
-}
-
-
 .nav-link {
   text-decoration: none;
   color: black;
 }
 
+.word {
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 30px ;
+  margin: 50px 30px;
 }
 
 .div-left {
   width: 30%;
+  margin: 0;
 }
 
 #name {
@@ -96,6 +100,16 @@ section {
 
 .div-right {
   width: 70%;
+}
+
+.marg {
+  margin: 20px 0 0 0;
+}
+
+.code {
+  font-family: 'Times', serif;
+  background-color: #cccccc;
+  padding: 10px;
 }
 
 .skills-list {
@@ -112,24 +126,34 @@ section {
   font-weight: bold;
 }
 
+.project-img {
+  width: 100%;
+  box-shadow: 0 0 10px ;
+}
+
+
 .main-footer {
   background-color: #808000;
 }
 
+.section-footer {
+  margin: 0 30px;
+}
+
 .footer-logo {
-  height: 70%;
+  height: 60px;
 }
 
 .footer-left {
-  width: 50%;
+  width: 65%;
 }
 
 .footer-center {
-  width: 25%;
+  width: 15%;
 }
 
 .footer-right{
-  width: 25%;
+  width: 20%;
 }
 
 .main-footer .container {
@@ -161,5 +185,22 @@ section {
   .div-right {
     width: 100%;
   }
+
+  .footer-left {
+    width: 50%;
+  }
+
+  .footer-center {
+    width: 20%;
+  }
+
+  .footer-right {
+    width: 20%;
+  }
+
+  .footer-logo {
+    height: 50px;
+  }
+
 }
 
