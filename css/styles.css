@@ -1,34 +1,27 @@
 @font-face {
   font-family: 'Volkhov-Regular';
-  src: url('../assets/fonts/Volkhov/Volkhov-Regular.ttf');
   font-weight: 400;
+  src: url('../assets/fonts/Volkhov/Volkhov-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Volkhov-Italic';
-  src: url("../assets/fonts/Volkhov/Volkhov-Italic.ttf");
   font-weight: 400;
+  src: url("../assets/fonts/Volkhov/Volkhov-Italic.ttf");
 }
 
 @font-face {
   font-family: 'Volkhov-Bold';
-  src: url("../assets/fonts/Volkhov/Volkhov-Bold.ttf");
   font-weight: 700;
+  src: url("../assets/fonts/Volkhov/Volkhov-Bold.ttf");
 }
 
 @font-face {
   font-family: 'Volkhov-BoldItalic';
-  src: url("../assets/fonts/Volkhov/Volkhov-BoldItalic.ttf");
   font-weight: 700;
+  src: url("../assets/fonts/Volkhov/Volkhov-BoldItalic.ttf");
 }
 
-/*
-позиционирование
-блочная модель (размеры, отступы)
-типографика (свойства шрифта)
-оформление (цвет фона, тень)
-анимация 
-*/
 * {
   box-sizing: border-box;
 }
@@ -39,10 +32,10 @@ html {
 
 body {
   display: flex;
-  flex-direction: column;                   /*переопределение главной оси display*/
-  justify-content: space-between;           /*выравнивает по главной оси*/
+  flex-direction: column;
+  justify-content: space-between;
 
-  min-height: 100vh;                        /*страница по всей высоте*/
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 
@@ -54,13 +47,8 @@ body {
   background-color: #dcdcdc;
 }
 
-/*.main-main h2 {
-  transform: rotate(-90deg);
-}*/
-
 .shadow {
   max-width: 1000px;
-  /*padding: 30px;*/
   margin: 0 auto;
 
   background-color: white;
@@ -68,38 +56,28 @@ body {
 }
 
 .main-nav {
+  background-color: #808000;
 }
 
 .nav-list {
   display: flex;
+  height: 70px;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 
   list-style: none;
   margin: 0;
   padding: 0;
-
-  background-color: #808000;
 }
 
 .nav-item {
-  
 }
+
 
 .nav-link {
-  padding: 0 25px;
-  line-height: 50px;
   text-decoration: none;
-}
-
-
-.main-header {
-}
-
-.avatar {
-}
-
-.main-main {
+  color: black;
 }
 
 section {
@@ -159,10 +137,6 @@ section {
   font-family: Volkhov-BoldItalic;
   font-size: 30px;
   margin: 0;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 @media (max-width: 768px) {
