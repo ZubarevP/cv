@@ -34,6 +34,11 @@
   --red: #EB1D36;
   --dark: #30475E;
   --black: #121212;
+  --codeone: #b294bb;
+  --codetwo: #de935f;
+  --codethree: #89b6c5;
+  --codefour: #b5bd68;
+  --codefive: #eeeeee;
 }
 
 * {
@@ -372,6 +377,7 @@ body {
   font-size: 20px;
   user-select: none;
   color: var(--white);
+  transition: .1s;
 }
 
 .course-more:hover {
@@ -418,6 +424,88 @@ body {
   font-family: "Source-Regular";
   font-size: 20px;
   color: var(--dark);
+}
+
+.code {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: var(--black);
+  color: var(--milk);
+}
+
+.code-wrapper {
+  width: 900px;
+  height: 530px;
+  margin: 0 auto;
+}
+
+.code-title {
+  margin-bottom: 50px;
+  font-family: "Source-Regular";
+  font-size: 40px;
+  text-align: end;
+  user-select: none;
+  color: var(--milk);
+}
+
+.code-cont {
+  padding: 20px 50px;
+  border-radius: 40px;
+  background-color: var(--black);
+  border-left: 4px solid var(--dark);
+  border-right: 4px solid var(--dark);
+}
+
+.code-one {
+  color: var(--codeone); 
+}
+
+.code-two {
+  color: var(--codetwo); 
+}
+
+.code-three {
+  color: var(--codethree); 
+}
+
+.code-four {
+  color: var(--codefour); 
+}
+
+.code-five {
+  color: var(--codefive); 
+}
+
+.code-task {
+  text-decoration: none;
+}
+
+.code-task-button {
+  display: block;
+  margin-top: 50px;
+  width: 150px;
+
+  border-radius: 5px;
+  outline: none;
+  border: 5px solid var(--dark);
+  background-color: var(--milk);
+
+  font-family: "Source-Regular";
+  font-size: 16px;
+  user-select: none;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.code-image {
+  display: block;
+  height: 50px;
+  margin: 50px auto 0;
+  transition: .3s;
+}
+
+.code-image:hover {
+  transform: scale(1.02);
 }
 
 .contact {

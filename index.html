@@ -68,43 +68,43 @@
         <ul class="skills-list">
           <li class="skills-item"> 
             <ul class="skills-list--in">
-              <li class="skills-item--in javascript">JS</li>
-              <li class="skills-item--in html">HTML</li>
-              <li class="skills-item--in css">CSS</li>
+              <li class="skills-item--in">JS</li>
+              <li class="skills-item--in">HTML</li>
+              <li class="skills-item--in">CSS</li>
             </ul>
           </li>
           <li class="skills-item">
             <ul class="skills-list--in">
-              <li class="skills-item--in linux">Linux</li>
-              <li class="skills-item--in windows">Windows</li>
+              <li class="skills-item--in">Linux</li>
+              <li class="skills-item--in">Windows</li>
             </ul>
           </li>
           <li class="skills-item">
             <ul class="skills-list--in">
-              <li class="skills-item--in sass">SASS</li>
-              <li class="skills-item--in webpack">WebPack</li>
+              <li class="skills-item--in">SASS</li>
+              <li class="skills-item--in">WebPack</li>
             </ul>
           </li>
           <li class="skills-item">
             <ul class="skills-list--in">
-              <li class="skills-item--in code">VS Code</li>
-              <li class="skills-item--in vim">Vim</li>
-              <li class="skills-item--in eclips">Eclips</li>
-              <li class="skills-item--in qt">Qt</li>
+              <li class="skills-item--in">VS Code</li>
+              <li class="skills-item--in">Vim</li>
+              <li class="skills-item--in">Eclips</li>
+              <li class="skills-item--in">Qt</li>
             </ul>
           </li>
           <li class="skills-item">
             <ul class="skills-list--in">
-              <li class="skills-item--in github">GitHub</li>
-              <li class="skills-item--in git">Git</li>
+              <li class="skills-item--in">GitHub</li>
+              <li class="skills-item--in">Git</li>
             </ul>
           </li>
           <li class="skills-item">
             <ul class="skills-list--in">
-              <li class="skills-item--in cplusplus">C++</li>
-              <li class="skills-item--in gplusplus">g++</li>
-              <li class="skills-item--in cmake">CMake</li>
-              <li class="skills-item--in bash">Bash</li>
+              <li class="skills-item--in">C++</li>
+              <li class="skills-item--in">g++</li>
+              <li class="skills-item--in">CMake</li>
+              <li class="skills-item--in">Bash</li>
             </ul>
           </li>
         </ul>
@@ -178,6 +178,33 @@
           <li class="language-item">Russian - Nativ</li>
           <li class="language-item">English - A2 (Pre-Intermediate)</li>
         </ul>
+      </div>
+    </section>
+    <section class="code">
+      <div class="code-wrapper">
+        <div class="code-title">Code Example</div>
+        <div class="code-cont">
+          <code class="code-example">
+            <span class="code-one">const</span> <span class="code-two">GetColumn</span> = (<span class="code-two">char</span>, <span class="code-two">size</span>, <span class="code-two">min</span>, <span class="code-two">max</span>)=> {<br>
+            &nbsp;&nbsp;<span class="code-one">let</span> <span class="code-two">result</span> = <span class="code-one">new</span> Set();<br>
+            &nbsp;&nbsp;<span class="code-one">while</span>(<span class="code-three">result.size</span> < <span class="code-three">size</span>) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-three">result.add</span>(<span class="code-four">`${</span><span class="code-three">char</span><span class="code-four">}${</span>Math.<span class="code-three">floor</span>(Math.<span class="code-three">random</span>() * (<span class="code-three">max</span> - <span class="code-three">min</span>) + <span class="code-three">min</span>)<span class="code-four">}`</span>);<br>
+            &nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;<span class="code-one">return</span> <span class="code-three">result</span>;<br>
+            }<br>
+            <br>
+            <span class="code-one">function</span> <span class="code-two">getCard</span>() {<br>
+            &nbsp;&nbsp;<span class="code-one">return</span> [<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"B"</span>, <span class="code-two">5</span>, <span class="code-two">1</span>, <span class="code-two">16</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"I"</span>, <span class="code-two">5</span>, <span class="code-two">16</span>, <span class="code-two">31</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"N"</span>, <span class="code-two">4</span>, <span class="code-two">31</span>, <span class="code-two">46</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"G"</span>, <span class="code-two">5</span>, <span class="code-two">46</span>, <span class="code-two">61</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"O"</span>, <span class="code-two">5</span>, <span class="code-two">61</span>, <span class="code-two">76</span>),<br>
+            &nbsp;&nbsp;];<br>
+            }<br>
+          </code>
+        </div>
+        <a class="code-link" href="https://www.codewars.com/users/ZubarevP" target="_blank"><img class="code-image" src="https://www.codewars.com/users/ZubarevP/badges/large" alt="codewars logo"><br></a>
       </div>
     </section>
     <section class="contact">
