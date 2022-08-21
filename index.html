@@ -21,7 +21,7 @@
     <!--===================== about =====================-->
     <section class="about">
       <div class="about-wrapper">
-        <img class="about-photo" src="../assets/images/herve.jpg" alt="photo">
+        <img class="about-photo" src="../assets/images/herve.jpg" alt="avatar">
         <div class="name">
           <div class="name-name">
             <span class="name-let">P</span
@@ -182,12 +182,12 @@
     </section>
     <section class="code">
       <div class="code-wrapper">
-        <div class="code-title">Code Example</div>
+        <h2 class="code-title">Code Example</h2>
         <div class="code-cont">
           <code class="code-example">
             <span class="code-one">const</span> <span class="code-two">GetColumn</span> = (<span class="code-two">char</span>, <span class="code-two">size</span>, <span class="code-two">min</span>, <span class="code-two">max</span>)=> {<br>
             &nbsp;&nbsp;<span class="code-one">let</span> <span class="code-two">result</span> = <span class="code-one">new</span> Set();<br>
-            &nbsp;&nbsp;<span class="code-one">while</span>(<span class="code-three">result.size</span> < <span class="code-three">size</span>) {<br>
+            &nbsp;&nbsp;<span class="code-one">while</span>(<span class="code-three">result.size</span> &lt; <span class="code-three">size</span>) {<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-three">result.add</span>(<span class="code-four">`${</span><span class="code-three">char</span><span class="code-four">}${</span>Math.<span class="code-three">floor</span>(Math.<span class="code-three">random</span>() * (<span class="code-three">max</span> - <span class="code-three">min</span>) + <span class="code-three">min</span>)<span class="code-four">}`</span>);<br>
             &nbsp;&nbsp;}<br>
             &nbsp;&nbsp;<span class="code-one">return</span> <span class="code-three">result</span>;<br>
@@ -243,6 +243,7 @@
             </a>
           </li>
         </ul>
+        <div class="between"></div>
       </div>
     </section>
   </main>
