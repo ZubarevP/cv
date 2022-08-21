@@ -34,12 +34,27 @@ function randomNum(min, max) {
 })();
 
 window.addEventListener("load", ()=>moveName());
+(function menuRedBorder() {
+  document.querySelectorAll(".nav-item")
+    .forEach((elem, ind) => {if(ind % 2) elem.classList.add("nav-item-odd");});
 
+})();
 
+function menuMove() {
+  document.querySelector(".nav-list").classList.toggle("nav-list-vis");
+  document.querySelectorAll(".nav-link")
+    .forEach((elem, ind)=>{
+    setTimeout(()=>elem.classList.toggle("nav-link-vis"), ind * 90);
+  });
+}
 
-(function addEvents() {
-  let courseJs = document.getElementById("course_js");
-  let courseCppRed = document.getElementById("course_cpp_red");
-  let courseCppYellow = document.getElementById("course_cpp_yellow");
-  let courseCppWhite = document.getElementById("course_cpp_white");
+function menuClose(e) {
+  if(!e.target.closest(".nav") && document.querySelector(".nav-list-vis")) {
+    menuMove();
+  }
+}
+
+(function addEventMenu(){
+  document.querySelector(".nav-menu-icon").addEventListener("click",()=> menuMove());
+  document.addEventListener("click",(e)=> menuClose(e));
 })();

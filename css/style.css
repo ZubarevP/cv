@@ -84,6 +84,10 @@ body {
   color: var(--black);
 }
 
+.nav {
+  position: relative;
+}
+
 .nav-menu-icon {
   width: 50px;
   height: 30px;
@@ -109,6 +113,52 @@ body {
 .line-center {
   width: 100%;
 }
+
+.nav-list {
+  position: absolute;
+  top: 0;
+  right: -250px;
+  width: 200px;
+  list-style: none;
+  transition: .1s;
+}
+
+.nav-item {
+  padding: 10px 20px;
+  border-right: 15px solid var(--dark);
+  border-radius: 5px;
+  background-color: var(--white);
+  margin-bottom: 5px;
+}
+
+.nav-list-vis {
+  right: 0;
+}
+
+.nav-item-odd {
+  border-right: 15px solid var(--red);
+}
+
+
+.nav-item:hover {
+  background-color: var(--light);
+}
+
+.nav-link {
+  position: relative;
+  right: -250px;
+  text-decoration: none;
+  color: var(--dark);
+  font-family: 'Ultra-regular';
+  font-family: "Source-Regular";
+  font-size: 22px;
+  transition: .1s;
+}
+
+.nav-link-vis {
+  right: 0;
+}
+
 
 /* ========== section ========== */
 .about {
@@ -259,7 +309,7 @@ body {
   border: 3px solid var(--dark);
   
   font-family: 'Ultra-regular';
-  font-size: 24px;
+  font-size: 23px;
   user-select: none;
   color: var(--dark);
 }
@@ -323,7 +373,6 @@ body {
 }
 
 .education {
-  padding-bottom: 50px;
   padding-top: 100px;
   background-color: var(--milk);
 }
@@ -399,7 +448,7 @@ body {
 
 .language {
   padding-bottom: 100px;
-  padding-top: 50px;
+  padding-top: 100px;
   background-color: var(--milk);
 }
 

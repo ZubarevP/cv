@@ -14,12 +14,22 @@
        <div class="nav-menu-line"></div>
        <div class="nav-menu-line line-center"></div>
        <div class="nav-menu-line"></div>
+       <ul class="nav-list">
+         <a class="nav-link" href="#about"><li class="nav-item">About Me</li></a>
+         <a class="nav-link" href="#skills"><li class="nav-item">My Skills</li></a>
+         <a class="nav-link" href="#projects"><li class="nav-item">My Projects</li></a>
+         <a class="nav-link" href="#education"><li class="nav-item">Education</li></a>
+         <a class="nav-link" href="#language"><li class="nav-item">Language</li></a>
+         <a class="nav-link" href="#example"><li class="nav-item">Code Example</li></a>
+         <a class="nav-link" href="#contact"><li class="nav-item">Contact</li></a>
+
+       </ul>
      </div>
     </nav>
   </header>
   <main class="main">
     <!--===================== about =====================-->
-    <section class="about">
+    <section id="about" class="about">
       <div class="about-wrapper">
         <img class="about-photo" src="../assets/images/herve.jpg" alt="avatar">
         <div class="name">
@@ -62,7 +72,7 @@
       </div>
     </section>
     <!--===================== skills=====================-->
-    <section class="skills">
+    <section id="skills" class="skills">
       <div class="skills-wrapper">
         <h2 class="skills-title">My Skills</h2>
         <ul class="skills-list">
@@ -110,7 +120,7 @@
         </ul>
       </div>
     </section>
-    <section class="project">
+    <section id="projects" class="project">
       <div class="project-wrapper">
         <h2 class="project-title">My Projects</h2>
         <div class="project-slide">
@@ -127,7 +137,7 @@
         </div>
       </div>
     </section>
-    <section class="education">
+    <section id="education" class="education">
       <div class="education-wrapper">
         <h2 class="education-title">Education</h2>
 
@@ -171,7 +181,7 @@
       </div>
 
     </section>
-    <section class="language">
+    <section id="language" class="language">
       <div class="language-wrapper">
         <h2 class="language-title">Language</h2>
         <ul class="language-list">
@@ -184,7 +194,7 @@
       <div class="code-wrapper">
         <h2 class="code-title">Code Example</h2>
         <div class="code-cont">
-          <code class="code-example">
+          <code id="example" class="code-example">
             <span class="code-one">const</span> <span class="code-two">GetColumn</span> = (<span class="code-two">char</span>, <span class="code-two">size</span>, <span class="code-two">min</span>, <span class="code-two">max</span>)=> {<br>
             &nbsp;&nbsp;<span class="code-one">let</span> <span class="code-two">result</span> = <span class="code-one">new</span> Set();<br>
             &nbsp;&nbsp;<span class="code-one">while</span>(<span class="code-three">result.size</span> &lt; <span class="code-three">size</span>) {<br>
@@ -207,7 +217,7 @@
         <a class="code-link" href="https://www.codewars.com/users/ZubarevP" target="_blank"><img class="code-image" src="https://www.codewars.com/users/ZubarevP/badges/large" alt="codewars logo"><br></a>
       </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="contact-wrapper">
         <h2 class="contact-title">Contact</h2>
         <ul class="contact-list">
