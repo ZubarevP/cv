@@ -35,22 +35,26 @@ function randomNum(min, max) {
 
 window.addEventListener("load", ()=>moveName());
 (function menuRedBorder() {
-  document.querySelectorAll(".nav-item")
-    .forEach((elem, ind) => {if(ind % 2) elem.classList.add("nav-item-odd");});
+  document.querySelectorAll(".nav-link")
+    .forEach((elem, ind) => {if(ind % 2) elem.classList.add("nav-link-red-border");});
 
 })();
 
 function menuMove() {
-  document.querySelector(".nav-list").classList.toggle("nav-list-vis");
-  document.querySelectorAll(".nav-link")
+  document.querySelectorAll(".nav-item")
     .forEach((elem, ind)=>{
-    setTimeout(()=>elem.classList.toggle("nav-link-vis"), ind * 90);
+    setTimeout(()=>elem.classList.toggle("nav-item-vis"), ind * 90);
   });
 }
 
+
 function menuClose(e) {
-  if(!e.target.closest(".nav") && document.querySelector(".nav-list-vis")) {
-    menuMove();
+  if(!e.target.closest(".nav") && document.querySelector(".nav-item-vis")) {
+    [...document.querySelectorAll(".nav-item")]
+      .reverse()
+      .forEach((elem, ind)=>{
+      setTimeout(()=>elem.classList.toggle("nav-item-vis"), ind * 90);
+    });
   }
 }
 

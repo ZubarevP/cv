@@ -118,49 +118,38 @@ body {
   position: absolute;
   top: 0;
   right: -250px;
-  width: 200px;
+  width: 230px;
   list-style: none;
-  transition: .1s;
 }
 
 .nav-item {
-  padding: 10px 20px;
-  border-right: 15px solid var(--dark);
-  border-radius: 5px;
-  background-color: var(--white);
-  margin-bottom: 5px;
-}
-
-.nav-list-vis {
-  right: 0;
-}
-
-.nav-item-odd {
-  border-right: 15px solid var(--red);
-}
-
-
-.nav-item:hover {
-  background-color: var(--light);
-}
-
-.nav-link {
   position: relative;
-  right: -250px;
-  text-decoration: none;
-  color: var(--dark);
-  font-family: 'Ultra-regular';
-  font-family: "Source-Regular";
-  font-size: 22px;
+  right: 0;
   transition: .1s;
 }
 
-.nav-link-vis {
-  right: 0;
+.nav-item-vis {
+  right: 250px;
 }
 
+.nav-link {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 20px;
+  background-color:var(--white); 
+  border-right: 15px solid var(--dark);
+  border-radius: 5px;
+  font-family: "Source-Regular";
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--dark);
+}
 
-/* ========== section ========== */
+.nav-link-red-border {
+  border-right: 15px solid var(--red);
+}
+
 .about {
   background: var(--black);
   padding-top: 150px;
@@ -269,7 +258,7 @@ body {
 .skills {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: radial-gradient(var(--milk), #f0e5cd);
+  background: var(--milk);
 }
 
 .skills-wrapper {
@@ -355,6 +344,7 @@ body {
 }
 
 .project-slide--img {
+  user-select: none;
   width: 400px;
 }
 
@@ -532,23 +522,6 @@ body {
   text-decoration: none;
 }
 
-.code-task-button {
-  display: block;
-  margin-top: 50px;
-  width: 150px;
-
-  border-radius: 5px;
-  outline: none;
-  border: 5px solid var(--dark);
-  background-color: var(--milk);
-
-  font-family: "Source-Regular";
-  font-size: 16px;
-  user-select: none;
-  color: var(--dark);
-  cursor: pointer;
-}
-
 .code-image {
   display: block;
   height: 50px;
@@ -563,7 +536,7 @@ body {
 .contact {
   padding-bottom: 100px;
   padding-top: 100px;
-  background-color: var(--silver);
+  background-color: var(--dark);
 }
 
 .contact-wrapper {
@@ -581,7 +554,7 @@ body {
   font-size: 40px;
   text-align: start;
   user-select: none;
-  color: var(--dark);
+  color: var(--white);
 }
 
 .contact-list {
@@ -593,11 +566,11 @@ body {
   font-family: "Source-Regular";
   font-size: 25px;
   text-decoration: none;
-  color: var(--dark);
+  color: var(--white);
 }
 
 .contact-link:hover {
-  color: var(--black);
+  color: var(--silver);
 }
 
 .between {

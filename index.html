@@ -15,20 +15,18 @@
        <div class="nav-menu-line line-center"></div>
        <div class="nav-menu-line"></div>
        <ul class="nav-list">
-         <a class="nav-link" href="#about"><li class="nav-item">About Me</li></a>
-         <a class="nav-link" href="#skills"><li class="nav-item">My Skills</li></a>
-         <a class="nav-link" href="#projects"><li class="nav-item">My Projects</li></a>
-         <a class="nav-link" href="#education"><li class="nav-item">Education</li></a>
-         <a class="nav-link" href="#language"><li class="nav-item">Language</li></a>
-         <a class="nav-link" href="#example"><li class="nav-item">Code Example</li></a>
-         <a class="nav-link" href="#contact"><li class="nav-item">Contact</li></a>
-
+         <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+         <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+         <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+         <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+         <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
+         <li class="nav-item"><a class="nav-link" href="#example">Code Example</a></li>
+         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
        </ul>
      </div>
     </nav>
   </header>
   <main class="main">
-    <!--===================== about =====================-->
     <section id="about" class="about">
       <div class="about-wrapper">
         <img class="about-photo" src="../assets/images/herve.jpg" alt="avatar">
@@ -71,7 +69,6 @@
           </p>
       </div>
     </section>
-    <!--===================== skills=====================-->
     <section id="skills" class="skills">
       <div class="skills-wrapper">
         <h2 class="skills-title">My Skills</h2>
@@ -140,46 +137,38 @@
     <section id="education" class="education">
       <div class="education-wrapper">
         <h2 class="education-title">Education</h2>
-
         <div class="education-course">
           <p class="course-year">2022</p>
           <h3 class="course-name">Preparatory Course «JavaScript/Front-end. Stage 0»</h3>
           <button id="course_js" class="course-more">more</button>
         </div>
-
         <div class="education-course">
           <p class="course-year">2022</p>
           <h3 class="course-name">Course «C++ development basics: red belt»</h3>
           <button id="course_cpp_red" class="course-more">more</button>
         </div>
-
         <div class="education-course">
           <p class="course-year">2021</p>
           <h3 class="course-name">Course «C++ development basics: yellow belt»</h3>
           <button id="course_cpp_yellow" class="course-more">more</button>
         </div>
-        
         <div class="education-course">
           <p class="course-year">2021</p>
           <h3 class="course-name">Course «C++ development basics: white belt»</h3>
           <button id="course_cpp_white" class="course-more">more</button>
         </div>
-
         <hr>
-
         <div class="education-univercity">
           <p class="univercity-year">2009</p>
           <h3 class="univercity-name">Moscow Psychology and Social Institute</h3>
           <p class="univercity-faculty">Faculty of CIvil Law</p>
         </div>
-
         <div class="education-univercity">
           <p class="univercity-year">2008</p>
           <h3 class="univercity-name">Military University of the Ministry of Defense of Russian Federation</h3>
           <p class="univercity-faculty">Faculty of CIvil Law</p>
         </div>
       </div>
-
     </section>
     <section id="language" class="language">
       <div class="language-wrapper">
@@ -190,11 +179,11 @@
         </ul>
       </div>
     </section>
-    <section class="code">
+    <section id="example" class="code">
       <div class="code-wrapper">
         <h2 class="code-title">Code Example</h2>
         <div class="code-cont">
-          <code id="example" class="code-example">
+          <code class="code-example">
             <span class="code-one">const</span> <span class="code-two">GetColumn</span> = (<span class="code-two">char</span>, <span class="code-two">size</span>, <span class="code-two">min</span>, <span class="code-two">max</span>)=> {<br>
             &nbsp;&nbsp;<span class="code-one">let</span> <span class="code-two">result</span> = <span class="code-one">new</span> Set();<br>
             &nbsp;&nbsp;<span class="code-one">while</span>(<span class="code-three">result.size</span> &lt; <span class="code-three">size</span>) {<br>
@@ -221,37 +210,13 @@
       <div class="contact-wrapper">
         <h2 class="contact-title">Contact</h2>
         <ul class="contact-list">
-          <li class="contact-item">
-            <a class="contact-link" href="https://goo.gl/maps/3XMNm5g4NmZG3FPm7" target="_blank">
-              Location: Kaliningrad, Russia
-            </a>
-          </li>
-          <li class="contact-item">
-            <a class="contact-link" href="mailto:zubarev.p@yahoo.com">
-              Email: zubarev.p@yahoo.com
-            </a>
-          </li>
-          <li class="contact-item">
-            <a class="contact-link" href="https://github.com/ZubarevP" target="_blank">
-              GitHub: ZubarevP
-            </a>
-          </li>
-          <li class="contact-item">
-            <a class="contact-link" href="https://t.me/zubarevp" target="_blank">
-              Telegram: zubarevp
-            </a>
-          </li>
-          <li class="contact-item contact-link">
-            Discord: Pavel Zubarev(@ZubarevP)
-          </li>
-          <li class="contact-item contact-link">
-            Discord: Pavel_Zu#9496
-          </li>
-          <li class="contact-item">
-            <a class="contact-link" href="tel:+79005615688">
-              Phone: +7 900 561-5688
-            </a>
-          </li>
+          <li class="contact-item"><a class="contact-link" href="https://goo.gl/maps/3XMNm5g4NmZG3FPm7" target="_blank">Location: Kaliningrad, Russia</a></li>
+          <li class="contact-item"><a class="contact-link" href="mailto:zubarev.p@yahoo.com">Email: zubarev.p@yahoo.com</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://github.com/ZubarevP" target="_blank">GitHub: ZubarevP</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://t.me/zubarevp" target="_blank">Telegram: zubarevp</a></li>
+          <li class="contact-item contact-link">Discord: Pavel Zubarev(@ZubarevP)</li>
+          <li class="contact-item contact-link">Discord: Pavel_Zu#9496</li>
+          <li class="contact-item"><a class="contact-link" href="tel:+79005615688">Phone: +7 900 561-5688</a></li>
         </ul>
         <div class="between"></div>
       </div>
