@@ -1,18 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>
-        CV
-    </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pavel Zubarev - web developer</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <table>
-        <tbody>
-            <tr>
-                <td><h1>Zubarev Pavel</h1></td>
-                <td><img src="/img/self.jpg" alt="my photo"></td>
-            </tr>
-        </tbody>
-    </table>
+  <header class="header">
+    <h1 class="header-title">Pavel Zubarev</h1>
+    <nav class="nav">
+     <div class="nav-menu-icon">
+       <div class="nav-menu-line"></div>
+       <div class="nav-menu-line line-center"></div>
+       <div class="nav-menu-line"></div>
+     </div>
+    </nav>
+  </header>
+  <main class="main">
+    <!--===================== about =====================-->
+    <section class="about">
+      <div class="about-wrapper">
+        <img class="about-photo" src="../assets/images/herve.jpg" alt="photo">
+        <div class="name">
+          <div class="name-name">
+            <span class="name-let">P</span
+            ><span class="name-let-first">A</span
+            ><span class="name-let">V</span
+            ><span class="name-let">E</span
+            ><span class="name-let">L</span>
+          </div>
+          <div class="name-surname">
+            <span class="surname-let">Z</span
+            ><span class="surname-let">U</span
+            ><span class="surname-let">B</span
+            ><span class="surname-let">A</span
+            ><span class="surname-let">R</span
+            ><span class="surname-let">E</span
+            ><span class="surname-let">V</span>
+          </div>
+          <div class="name-prof">
+            <span class="prof-let">w</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">b</span
+            > <span class="prof-let">d</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">v</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">l</span
+            ><span class="prof-let">o</span
+            ><span class="prof-let">p</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">r</span>
+          </div>
+        </div>
+          <h2 class="about-title">Hello, my name is Pavel!</h2>
+          <p class="about-description">
+          I'm junior front-end web developer. 
+          I make websites and I love it.
+          </p>
+      </div>
+    </section>
+    <!--===================== skills=====================-->
+    <section class="skills">
+      <div class="skills-wrapper">
+        <h2 class="skills-title">My Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item"> 
+            <ul class="skills-list--in">
+              <li class="skills-item--in javascript">JS</li>
+              <li class="skills-item--in html">HTML</li>
+              <li class="skills-item--in css">CSS</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in linux">Linux</li>
+              <li class="skills-item--in windows">Windows</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in sass">SASS</li>
+              <li class="skills-item--in webpack">WebPack</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in code">VS Code</li>
+              <li class="skills-item--in vim">Vim</li>
+              <li class="skills-item--in eclips">Eclips</li>
+              <li class="skills-item--in qt">Qt</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in github">GitHub</li>
+              <li class="skills-item--in git">Git</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in cplusplus">C++</li>
+              <li class="skills-item--in gplusplus">g++</li>
+              <li class="skills-item--in cmake">CMake</li>
+              <li class="skills-item--in bash">Bash</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="project">
+      <div class="project-wrapper">
+        <h2 class="project-title">My Projects</h2>
+        <div class="project-slide">
+          <a class="project-slide--link" href="https://rolling-scopes-school.github.io/zubarevp-JSFEPRESCHOOL2022Q2/momentum/" target="_blank">
+            <img class="project-slide--img" src="../assets/images/momentum.png" alt="screenshot of momentum site">
+          </a>
+          <h4 class="project-slide--title">Momentum</h4>
+        </div>
+        <div class="project-slide">
+          <a class="project-slide--link" href="https://rolling-scopes-school.github.io/zubarevp-JSFEPRESCHOOL2022Q2/travel/" target="_blank">
+            <img class="project-slide--img" src="../assets/images/travel.png" alt="screenshot of travel portal site">
+          </a>
+          <h4 class="project-slide--title">Travel&nbsp;Portal</h4>
+        </div>
+      </div>
+    </section>
+    <section class="education">
+      <div class="education-wrapper">
+        <h2 class="education-title">Education</h2>
+
+        <div class="education-course">
+          <p class="course-year">2022</p>
+          <h3 class="course-name">Preparatory Course «JavaScript/Front-end. Stage 0»</h3>
+          <button id="course_js" class="course-more">more</button>
+        </div>
+
+        <div class="education-course">
+          <p class="course-year">2022</p>
+          <h3 class="course-name">Course «C++ development basics: red belt»</h3>
+          <button id="course_cpp_red" class="course-more">more</button>
+        </div>
+
+        <div class="education-course">
+          <p class="course-year">2021</p>
+          <h3 class="course-name">Course «C++ development basics: yellow belt»</h3>
+          <button id="course_cpp_yellow" class="course-more">more</button>
+        </div>
+        
+        <div class="education-course">
+          <p class="course-year">2021</p>
+          <h3 class="course-name">Course «C++ development basics: white belt»</h3>
+          <button id="course_cpp_white" class="course-more">more</button>
+        </div>
+
+        <hr>
+
+        <div class="education-univercity">
+          <p class="univercity-year">2009</p>
+          <h3 class="univercity-name">Moscow Psychology and Social Institute</h3>
+          <p class="univercity-faculty">Faculty of CIvil Law</p>
+        </div>
+
+        <div class="education-univercity">
+          <p class="univercity-year">2008</p>
+          <h3 class="univercity-name">Military University of the Ministry of Defense of Russian Federation</h3>
+          <p class="univercity-faculty">Faculty of CIvil Law</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="language">
+      <div class="language-wrapper">
+        <h2 class="language-title">Language</h2>
+        <ul class="language-list">
+          <li class="language-item">Russian - Nativ</li>
+          <li class="language-item">English - A2 (Pre-Intermediate)</li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-wrapper">
+        <h2 class="contact-title">Contact</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a class="contact-link" href="https://goo.gl/maps/3XMNm5g4NmZG3FPm7" target="_blank">
+              Location: Kaliningrad, Russia
+            </a>
+          </li>
+          <li class="contact-item">
+            <a class="contact-link" href="mailto:zubarev.p@yahoo.com">
+              Email: zubarev.p@yahoo.com
+            </a>
+          </li>
+          <li class="contact-item">
+            <a class="contact-link" href="https://github.com/ZubarevP" target="_blank">
+              GitHub: ZubarevP
+            </a>
+          </li>
+          <li class="contact-item">
+            <a class="contact-link" href="https://t.me/zubarevp" target="_blank">
+              Telegram: zubarevp
+            </a>
+          </li>
+          <li class="contact-item contact-link">
+            Discord: Pavel Zubarev(@ZubarevP)
+          </li>
+          <li class="contact-item contact-link">
+            Discord: Pavel_Zu#9496
+          </li>
+          <li class="contact-item">
+            <a class="contact-link" href="tel:+79005615688">
+              Phone: +7 900 561-5688
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="footer-link" href="https://github.com/ZubarevP" target="_blank">
+      <img class="footer-img" src="../assets/svg/footer_github.svg" alt="github logo">
+    </a>
+    <div class="footer-year">2022</div>
+    <a class="footer-link" href="https://rs.school/js/" target="_blank">
+      <img class="footer-img" src="../assets/svg/footer_rs_school.svg" alt="rs school logo">
+    </a>
+  </footer>
+<script src="./js/index.js"></script>
 </body>
 </html>
