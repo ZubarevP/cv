@@ -110,6 +110,10 @@ body {
   }
 }
 
+.header-title-link {
+  color: var(--black);
+}
+
 .header-title:hover {
   color: var(--black);
 }
