@@ -815,6 +815,12 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .education {
+    padding-top: 20vw;
+  }
+}
+
 .education-wrapper {
   width: 900px;
   height: 450px;
@@ -828,6 +834,14 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .education-wrapper {
+    width: 100%;
+    height: 124vw;
+    padding: 0 6vw;
+  }
+}
+
 .education-wrapper > hr {
   margin: 30px 0;
 }
@@ -835,6 +849,12 @@ body {
 @media(max-width: 1100px) {
   .education-wrapper > hr {
     margin: 2.72727vw 0;
+  }
+}
+
+@media(max-width: 500px) {
+  .education-wrapper > hr {
+    margin: 6vw 0;
   }
 }
 
@@ -854,6 +874,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .education-title {
+    margin-bottom: 3vw;
+    font-size: 35px;
+  }
+}
+
 .education-course {
   display: flex;  
   justify-content: space-between;
@@ -863,6 +890,13 @@ body {
 @media(max-width: 1100px) {
   .education-course {
     margin-bottom: 0.909091vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .education-course {
+    flex-direction: column;
+    margin-bottom: 2vw;
   }
 }
 
@@ -878,6 +912,12 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .course-year {
+    font-size: 3.2vw;
+  }
+}
+
 .course-name {
   font-family: "Source-Regular";
   font-size: 20px;
@@ -887,6 +927,12 @@ body {
 @media(max-width: 1100px) {
   .course-name {
     font-size: 1.81818vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .course-name {
+    font-size: 3.8vw;
   }
 }
 
@@ -909,6 +955,16 @@ body {
     border-radius: 0.454545vw;
     border: 0.181818vw solid var(--red);
     font-size: 1.81818vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .course-more {
+    align-self: end;
+    width: 12vw;
+    border-radius: 1vw;
+    border: 1vw solid var(--red);
+    font-size: 3.2vw;
   }
 }
 
@@ -936,6 +992,12 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .education-univercity {
+    font-size: 3.2vw;
+  }
+}
+
 .education-univercity + .education-univercity {
   margin-top: 10px;  
 }
@@ -946,6 +1008,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .education-univercity + .education-univercity {
+    margin-top: 3vw;  
+  }
+}
+
+/*////////////////////////////////////////////*/
 .language {
   padding-bottom: 100px;
   padding-top: 100px;
@@ -956,6 +1025,13 @@ body {
   .language {
     padding-bottom: 9.09091vw;
     padding-top: 9.09091vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .language {
+    padding-bottom: 20vw;
+    padding-top: 20vw;
   }
 }
 
@@ -972,6 +1048,14 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .language-wrapper {
+    width: 100%;
+    height: 20vw;
+    padding: 0 6vw;
+  }
+}
+
 .language-title {
   font-family: "Source-Regular";
   font-size: 40px;
@@ -983,6 +1067,12 @@ body {
 @media(max-width: 1100px) {
   .language-title {
     font-size: 3.63636vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .language-title {
+    font-size: 7vw;
   }
 }
 
@@ -1002,6 +1092,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .language-item {
+    font-size: 3.8vw;
+  }
+}
+
+/*////////////////////////////////////////////*/
 .code {
   padding-bottom: 100px;
   padding-top: 100px;
@@ -1016,6 +1113,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .code {
+    padding-bottom: 20vw;
+    padding-top: 20vw;
+  }
+}
+
 .code-wrapper {
   width: 900px;
   height: 680px;
@@ -1026,6 +1130,14 @@ body {
   .code-wrapper {
     width: 81.8182vw;
     height: 61.8182vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .code-wrapper {
+    width: 100%;
+    height: 128vw;
+    padding: 6vw;
   }
 }
 
@@ -1045,6 +1157,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .code-title {
+    margin-bottom: 5vw;
+    font-size: 7vw;
+  }
+}
+
 .code-cont {
   padding: 20px 50px;
   border-radius: 40px;
@@ -1061,6 +1180,18 @@ body {
     border-left: 0.363636vw solid var(--red);
     border-right: 0.363636vw solid var(--red);
     font-size: 1.81818vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .code-cont {
+    padding: 6vw;
+    margin: 10vw 0;
+    border-radius: 6vw;
+    border-left: 0.4vw solid var(--red);
+    border-right: 0.4vw solid var(--red);
+    font-size: 3vw;
+    word-wrap: break-word;
   }
 }
 
@@ -1102,10 +1233,19 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .code-image {
+    height: auto;
+    width: 90%;
+    margin: 4vw auto 0;
+  }
+}
+
 .code-image:hover {
   transform: scale(1.02);
 }
 
+/*//////////////////////////////////////*/
 .contact {
   padding-bottom: 100px;
   padding-top: 100px;
@@ -1119,6 +1259,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .contact {
+    padding-bottom: 20vw;
+    padding-top: 20vw;
+  }
+}
+
 .contact-wrapper {
   width: 900px;
   height: 220px;
@@ -1129,13 +1276,23 @@ body {
   grid-gap: 0 50px ;
 }
 
-
 @media(max-width: 1100px) {
   .contact-wrapper {
     width: 81.8182vw;
     height: 20vw;
     grid-template-columns: 30.9091vw 0.909091vw 40.9091vw;
     grid-gap: 0 4.54545vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .contact-wrapper {
+    width: 100%;
+    height: 40vw;
+    padding: 0 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
@@ -1150,6 +1307,13 @@ body {
 @media(max-width: 1100px) {
   .contact-title {
     font-size: 3.63636vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .contact-title {
+    font-size: 7vw;
+    align-self: end;
   }
 }
 
@@ -1168,6 +1332,12 @@ body {
 @media(max-width: 1100px) {
   .contact-link {
     font-size: 2.27273vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .contact-link {
+    font-size: 3.8vw;
   }
 }
 
@@ -1191,6 +1361,14 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .between {
+    border-radius: none;
+    background: none;
+  }
+}
+
+/*////////////////////////////////////////////////*/
 .footer {
   width: 100%;
   height: 60px;
@@ -1208,6 +1386,13 @@ body {
   }
 }
 
+@media(max-width: 500px) {
+  .footer {
+    height: 16vw;
+    padding: 0 6vw;
+  }
+}
+
 .footer-img {
   height: 30px;
 }
@@ -1215,6 +1400,12 @@ body {
 @media(max-width: 1100px) {
   .footer-img {
     height: 2.72727vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .footer-img {
+    height: 8vw;
   }
 }
 
@@ -1231,5 +1422,13 @@ body {
     border-top: 0.181818vw solid var(--white);
     border-bottom: 0.181818vw solid var(--white);
     font-size: 1.54545vw;
+  }
+}
+
+@media(max-width: 500px) {
+  .footer-year {
+    border-top: 0.6vw solid var(--white);
+    border-bottom: 0.6vw solid var(--white);
+    font-size: 3.8vw;
   }
 }
