@@ -1,181 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>CV Zuberev</title>
-  <link rel="icon" type="image/png" sizes="48x48" href="./assets/img/faicon-48.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon-96.png">
-  <link rel="stylesheet" href="./css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pavel Zubarev - web developer</title>
+  <link rel="icon" href="./assets/svg/favicon.svg">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-  <div class="shadow">
-
-    <!-- ========================= HEADER ========================= -->
-
-    <header class="main-header">
-      <nav class="main-nav">
-        <div class="container-nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a class="nav-link" href="#about_me">
-                <div class="button">About me</div>
-              </a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#code_example">Code</a></li>
-            <li class="nav-item"><a class="nav-link" href="#my_projects">Projetcs</a></li>
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
+  <header class="header">
+    <h1 class="header-title"><a class="header-title-link" href="#about">Pavel Zubarev</a></h1>
+    <nav class="nav">
+     <div class="nav-menu-icon">
+       <div class="nav-menu-line"></div>
+       <div class="nav-menu-line line-center"></div>
+       <div class="nav-menu-line"></div>
+       <ul class="nav-list">
+         <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+         <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+         <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+         <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+         <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
+         <li class="nav-item"><a class="nav-link" href="#example">Code Example</a></li>
+         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+       </ul>
+     </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section id="about" class="about">
+      <div class="about-wrapper">
+        <div class="name">
+          <div class="name-name">
+            <span class="name-let">P</span
+            ><span class="name-let-first">A</span
+            ><span class="name-let">V</span
+            ><span class="name-let">E</span
+            ><span class="name-let">L</span>
+          </div>
+          <div class="name-surname">
+            <span class="surname-let">Z</span
+            ><span class="surname-let">U</span
+            ><span class="surname-let">B</span
+            ><span class="surname-let">A</span
+            ><span class="surname-let">R</span
+            ><span class="surname-let">E</span
+            ><span class="surname-let">V</span>
+          </div>
+          <div class="name-prof">
+            <span class="prof-let">w</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">b</span
+            > <span class="prof-let">d</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">v</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">l</span
+            ><span class="prof-let">o</span
+            ><span class="prof-let">p</span
+            ><span class="prof-let">e</span
+            ><span class="prof-let">r</span>
+          </div>
         </div>
-      </nav>
-
-      <div class="container">
-        <section class="section" id="sec-head">
-          <div id="name">
-            <h1 class="section-title" id="h1">Pavel Zuberev</h1>
-            <p id="header-p">Front-End Developer</p>
-          </div>
-          <div class="div-left">
-            <img class="avatar" src="./assets/img/self.jpg" alt="Zubarev Pavel photo">
-          </div>
-          <div class="div-right">
-            <h2 class="section-title" id="contact">Contact</h2>
-            <ul class="skills-list">
-              <li><span class="bold">Address:</span> Kaliningrad, Russia</li>
-              <li><span class="bold">Email:</span> zubarev.p@yahoo.com</li>
-              <li><span class="bold">GitHub:</span> ZuberevP</li>
-              <li><span class="bold">Telegram:</span> zubarevp</li>
-              <li><span class="bold">Discord:</span> Pavel Zuberev(@ZuberevP)</li>
-              <li><span class="bold">Phone:</span> +7 900 561-5688</li>
-            </ul>
-          </div>
-        </section>
+        <img class="about-photo" src="../assets/images/herve.webp" alt="avatar">
+        <h2 class="about-title">Hello, my name is Pavel!</h2>
+        <p class="about-description">
+          I'm junior front-end web developer. 
+          I make websites and I love it.
+        </p>
       </div>
-    </header>
-
-    <!-- ========================== MAIN ========================== -->
-
-    <main class="main-main">
-      <div class="container">
-
-        <section class="section" id="sec-summary">
-          <div class="div-left">
-            <h2 class="section-title" id="about_me">About me</h2>
-          </div>
-          <div class="div-right">
-            <p>
-              Hello! I have been a lawyer for twelve years.
-              I decided to change my profession because
-              I believe that dreams should come true.
-              Every day I get closer to my dream - to become a web developer.
-            </p>
-          </div>
-        </section>
-
-        <section class="section" id="sec-skills">
-          <div class="div-left">
-            <h2 class="section-title" id="skills">Skills</h2>
-          </div>
-          <div class="div-right">
-            <ul>
-              <li>C++ std 17, CMake, g++</li>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>Git, GitHub</li>
-              <li>Windows</li>
-              <li>Linux, bash</li>
-              <li>VS, VS code, Vim, Eclips, QT creator</li>
+    </section>
+    <section id="skills" class="skills">
+      <div class="skills-wrapper">
+        <h2 class="skills-title">My Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item"> 
+            <ul class="skills-list--in">
+              <li class="skills-item--in">JS</li>
+              <li class="skills-item--in">HTML</li>
+              <li class="skills-item--in">CSS</li>
             </ul>
-          </div>
-        </section>
-
-        <section class="section" id="sec-code">
-          <div class="div-left">
-            <h2 class="section-title" id="code_example">Code example</h2>
-          </div>
-          <div class="div-right marg">
-            <div class="code">
-              &num;iostream &lt;iostream&gt;<br>
-              <br>
-              int main&lpar;&rpar; &lbrace;<br>
-              &nbsp;&nbsp;&nbsp;&nbsp;std::cout &lt;&lt; &quot;Hello, world!&quot; &lt;&lt; std::endl;<br>
-              &rbrace;
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="sec-projects">
-          <div class="div-left">
-            <h2 class="section-title" id="my_projects">My projetcs</h2>
-          </div>
-          <div class="div-right">
-            <a class="link-project" href="https://zubarevp.github.io/rsschool-cv/">
-              <h4 class="h4-project">Project: CV</h4>
-            </a>
-            <img class="project-img marg" src="./assets/img/project1.png" alt="image of first project">
-            <a class="link-project" href="https://github.com/ZubarevP/EducationCPP">
-              <h4 class="h4-project">Project: C++ course &nbsp;&nbsp;&gt;&gt;</h4>
-            </a>
-          </div>
-        </section>
-
-        <section class="section" id="sec-education">
-          <div class="div-left">
-            <h2 class="section-title" id="education">Education</h2>
-          </div>
-          <div class="div-right">
-            <ul class="education-list">
-              <li>2009 MPSI - Faculty of Law</li>
-              <li>2021 Yandex &amp; MFTI - C++ course(white belt)</li>
-              <li>2021 Yandex &amp; MFTI - C++ course(yellow belt)</li>
-              <li>2021 Yandex &amp; MFTI - C++ course(red belt)</li>
-              <li>2022 Yandex &amp; MFTI - C++ course(brown belt)</li>
-              <li>2022 RS School - FrontEnd/JS</li>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in">Linux</li>
+              <li class="skills-item--in">Windows</li>
             </ul>
-          </div>
-        </section>
-
-        <section class="section" id="sec-language">
-          <div class="div-left">
-            <h2 class="section-title" id="language">Language</h2>
-          </div>
-          <div class="div-right">
-            <ul>
-              <li>Russain - nativ</li>
-              <li>English - pre-intermediate</li>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in">SASS</li>
+              <li class="skills-item--in">WebPack</li>
             </ul>
-          </div>
-        </section>
-
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in">VS Code</li>
+              <li class="skills-item--in">Vim</li>
+              <li class="skills-item--in">Eclips</li>
+              <li class="skills-item--in">Qt</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in">GitHub</li>
+              <li class="skills-item--in">Git</li>
+            </ul>
+          </li>
+          <li class="skills-item">
+            <ul class="skills-list--in">
+              <li class="skills-item--in">C++</li>
+              <li class="skills-item--in">g++</li>
+              <li class="skills-item--in">CMake</li>
+              <li class="skills-item--in">Bash</li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </main>
-
-    <!-- ========================= FOOTER ========================= -->
-
-    <footer class="main-footer">
-      <div class="container">
-
-        <section class="section-footer" id="sec-footer">
-          <div class="footer-left">
-            <h4>2022 by Pavel Zubarev</h4>
-          </div>
-          <div class="footer-center">
-            <a href="https://github.com/ZubarevP/" target="_blank">
-              <img class="footer-logo" src="./assets/img/github_logo_black.png" alt="GitHub logo">
-            </a>
-          </div>
-          <div class="footer-right">
-            <a href="https://rs.school/js/" target="_blank">
-              <img class="footer-logo" src="./assets/img/rs_school_js.png" alt="RS School logo">
-            </a>
-          </div>
-        </section>
-
+    </section>
+    <section id="projects" class="project">
+      <div class="project-wrapper">
+        <h2 class="project-title">My Projects</h2>
+        <div class="project-slide">
+          <a class="project-slide--link" href="https://rolling-scopes-school.github.io/zubarevp-JSFEPRESCHOOL2022Q2/momentum/" target="_blank">
+            <img class="project-slide--img" src="../assets/images/momentum.webp" alt="screenshot of momentum site">
+          </a>
+          <h4 class="project-slide--title">Momentum</h4>
+        </div>
+        <div class="project-slide">
+          <a class="project-slide--link" href="https://rolling-scopes-school.github.io/zubarevp-JSFEPRESCHOOL2022Q2/travel/" target="_blank">
+            <img class="project-slide--img" src="../assets/images/travel.webp" alt="screenshot of travel portal site">
+          </a>
+          <h4 class="project-slide--title">Travel&nbsp;Portal</h4>
+        </div>
       </div>
-    </footer>
-  </div>
-
+    </section>
+    <section id="education" class="education">
+      <div class="education-wrapper">
+        <h2 class="education-title">Education</h2>
+        <div class="education-course">
+          <p class="course-year">2022</p>
+          <h3 class="course-name">Preparatory Course «JavaScript/Front-end. Stage 0»</h3>
+          <a id="course_js" class="course-more" href="https://coursera.org/share/22c66ddff09d9e4c77f0498449a9dfa2" target="_blank">more</a>
+        </div>
+        <div class="education-course">
+          <p class="course-year">2022</p>
+          <h3 class="course-name">Course «C++ development basics: red belt»</h3>
+          <a id="course_cpp_red" class="course-more" href="https://coursera.org/share/22c66ddff09d9e4c77f0498449a9dfa2" target="_blank">more</a>
+        </div>
+        <div class="education-course">
+          <p class="course-year">2021</p>
+          <h3 class="course-name">Course «C++ development basics: yellow belt»</h3>
+          <a id="course_cpp_yellow" class="course-more" href="https://coursera.org/share/10786d003a1f34e33d4b270e2e9315b2" target="_blank">more</a>
+        </div>
+        <div class="education-course">
+          <p class="course-year">2021</p>
+          <h3 class="course-name">Course «C++ development basics: white belt»</h3>
+          <a id="course_cpp_white" class="course-more" href="https://coursera.org/share/e452dd6d315306750c9ee0580b360fd9" target="_blank">more</a>
+        </div>
+        <hr>
+        <div class="education-univercity">
+          <p class="univercity-year">2009</p>
+          <h3 class="univercity-name">Moscow Psychology and Social Institute</h3>
+          <p class="univercity-faculty">Faculty of CIvil Law</p>
+        </div>
+        <div class="education-univercity">
+          <p class="univercity-year">2008</p>
+          <h3 class="univercity-name">Military University of the Ministry of Defense of Russian Federation</h3>
+          <p class="univercity-faculty">Faculty of CIvil Law</p>
+        </div>
+      </div>
+    </section>
+    <section id="language" class="language">
+      <div class="language-wrapper">
+        <h2 class="language-title">Language</h2>
+        <ul class="language-list">
+          <li class="language-item">Russian - Nativ</li>
+          <li class="language-item">English - A2 (Pre-Intermediate)</li>
+        </ul>
+      </div>
+    </section>
+    <section id="example" class="code">
+      <div class="code-wrapper">
+        <h2 class="code-title">Code Example</h2>
+        <div class="code-cont">
+          <code class="code-example">
+            <span class="code-one">const</span> <span class="code-two">GetColumn</span> = (<span class="code-two">char</span>, <span class="code-two">size</span>, <span class="code-two">min</span>, <span class="code-two">max</span>)=> {<br>
+            &nbsp;&nbsp;<span class="code-one">let</span> <span class="code-two">result</span> = <span class="code-one">new</span> Set();<br>
+            &nbsp;&nbsp;<span class="code-one">while</span>(<span class="code-three">result.size</span> &lt; <span class="code-three">size</span>) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-three">result.add</span>(<span class="code-four">`${</span><span class="code-three">char</span><span class="code-four">}${</span>Math.<span class="code-three">floor</span>(Math.<span class="code-three">random</span>() * (<span class="code-three">max</span> - <span class="code-three">min</span>) + <span class="code-three">min</span>)<span class="code-four">}`</span>);<br>
+            &nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;<span class="code-one">return</span> <span class="code-three">result</span>;<br>
+            }<br>
+            <br>
+            <span class="code-one">function</span> <span class="code-two">getCard</span>() {<br>
+            &nbsp;&nbsp;<span class="code-one">return</span> [<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"B"</span>, <span class="code-two">5</span>, <span class="code-two">1</span>, <span class="code-two">16</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"I"</span>, <span class="code-two">5</span>, <span class="code-two">16</span>, <span class="code-two">31</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"N"</span>, <span class="code-two">4</span>, <span class="code-two">31</span>, <span class="code-two">46</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"G"</span>, <span class="code-two">5</span>, <span class="code-two">46</span>, <span class="code-two">61</span>),<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;...GetColumn(<span class="code-four">"O"</span>, <span class="code-two">5</span>, <span class="code-two">61</span>, <span class="code-two">76</span>),<br>
+            &nbsp;&nbsp;];<br>
+            }<br>
+          </code>
+        </div>
+        <a class="code-link" href="https://www.codewars.com/users/ZubarevP" target="_blank"><img class="code-image" src="https://www.codewars.com/users/ZubarevP/badges/large" alt="codewars logo"><br></a>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact-wrapper">
+        <h2 class="contact-title">Contact</h2>
+        <ul class="contact-list">
+          <li class="contact-item"><a class="contact-link" href="https://goo.gl/maps/3XMNm5g4NmZG3FPm7" target="_blank">Location: Kaliningrad, Russia</a></li>
+          <li class="contact-item"><a class="contact-link" href="mailto:zubarev.p@yahoo.com">Email: zubarev.p@yahoo.com</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://github.com/ZubarevP" target="_blank">GitHub: ZubarevP</a></li>
+          <li class="contact-item"><a class="contact-link" href="https://t.me/zubarevp" target="_blank">Telegram: zubarevp</a></li>
+          <li class="contact-item contact-link">Discord: Pavel Zubarev(@ZubarevP)</li>
+          <li class="contact-item contact-link">Discord: Pavel_Zu#9496</li>
+          <li class="contact-item"><a class="contact-link" href="tel:+79005615688">Phone: +7 900 561-5688</a></li>
+        </ul>
+        <div class="between"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="footer-link" href="https://github.com/ZubarevP" target="_blank">
+      <img class="footer-img" src="../assets/svg/footer_github.svg" alt="github logo">
+    </a>
+    <div class="footer-year">2022</div>
+    <a class="footer-link" href="https://rs.school/js/" target="_blank">
+      <img class="footer-img" src="../assets/svg/footer_rs_school.svg" alt="rs school logo">
+    </a>
+  </footer>
+<script src="./js/index.js"></script>
 </body>
-
 </html>
