@@ -881,7 +881,7 @@ body {
 @media(max-width: 500px) {
   .education-title {
     margin-bottom: 3vw;
-    font-size: 35px;
+    font-size: 7vw;
   }
 }
 
@@ -948,6 +948,8 @@ body {
   border: 2px solid var(--red);
   font-family: "Source-Regular";
   font-size: 20px;
+  text-decoration: none;
+  text-align: center;
   user-select: none;
   color: var(--white);
   transition: .1s;
