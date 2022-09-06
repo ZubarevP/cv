@@ -1,6 +1,6 @@
 # Pavel Zubarev
 
-![my_photo](img/self.jpg)
+![my_photo](img/self.jpg) 
 
 ## **My contact info**
 > **address** : Kaliningrad, Russia<br>
